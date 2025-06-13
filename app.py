@@ -8,9 +8,10 @@ import plotly.express as px
 
 #%%
 # load data set
-df = pd.read_csv(r"C:\Users\soonn\Documents\GitHub\Python_Interactive_Dashboard_Plotly\life_expectancy.csv")
+df = pd.read_csv("life_expectancy.csv")
 
 df.head()
+
 #%%
 
 #%%
