@@ -141,7 +141,7 @@ app.layout = html.Div(
 
 
 
-
+server = app.server
 
 
 #%%
