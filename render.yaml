@@ -1,0 +1,12 @@
+# Exported from Render on 2025-06-13T02:10:29Z
+services:
+- type: web
+  name: Python_Interactive_Dashboard_Plotly
+  runtime: python
+  repo: https://github.com/soonn22/Python_Interactive_Dashboard_Plotly
+  plan: free
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: app.ipynb
+  autoDeployTrigger: commit
+version: "1"
